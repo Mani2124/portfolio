@@ -4,7 +4,7 @@ const data = {
         previewTitle: "Earth Observation, Geodesy & GIS",
         html: `
             <ul>
-                <li><strong>MS</strong> — Manikandan Somu</li>
+                <li><strong>MSc</strong> — Manikandan Somu</li>
                 <li><strong>Focus</strong> — Satellite data, geodesy, GIS and climate services</li>
                 <li><strong>Base</strong> — Bonn, Germany</li>
             </ul>
