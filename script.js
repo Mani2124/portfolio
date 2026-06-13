@@ -339,8 +339,8 @@ skillGNSS: {
         previewTitle: "Scientific & Geospatial Development",
         html: `
             <div class="chips">
-                <span>Python</span>
-                <span>MATLAB</span>
+                <span>PyQt</span>
+                <span>matplotlib</span>
                 <span>FastAPI</span>
                 <span>Streamlit</span>
                 <span>NumPy</span>
