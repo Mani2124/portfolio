@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MS Manikandan Somu | Geodesy & Earth Observation Portfolio</title>
+    <meta name="description" content="Portfolio of MS Manikandan Somu: Geodesy, Earth Observation, GIS, climate services, and environmental monitoring." />
+    <meta property="og:title" content="Manikandan Somu | Geodesy & Earth Observation Portfolio" />
+    <meta property="og:description" content="Interactive portfolio showcasing Earth observation, geodesy, GIS, climate data, and environmental monitoring projects." />
+    <meta property="og:image" content="assets/linkedin-preview.png" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <canvas id="stars"></canvas>
+
+    <main class="portfolio-shell">
+        <section class="identity-panel">
+            <p class="eyebrow">EARTH OBSERVATION · GEODESY · GIS · CLIMATE SERVICES</p>
+
+            <h1>Manikandan Somu</h1>
+            <h2>Geodesy & Geospatial Data Specialist</h2>
+
+            <p class="tagline">
+                Exploring Earth through satellite data, spatial analytics, and geospatial technologies.
+                I work with GRACE-(FO), Sentinel-1,Sentinal-2, ERA5, GIS, and climate datasets to support environmental monitoring and real-world decision-making.
+            </p>
+
+            <div class="quick-stats">
+                <div><strong>3+ Years</strong><span>Professional Experience</span></div>
+                <div><strong>M.Sc.</strong><span>Geodetic Engineering</span></div>
+                <div><strong>Bonn</strong><span>Germany</span></div>
+            </div>
+
+            <div class="actions">
+                <a href="https://github.com/geosmani19" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="assets/ManikandanSomu_CV.pdf" target="_blank">CV</a>
+                <a href="mailto:geosmani19@gmail.com">Email</a>
+            </div>
+
+            <p class="hint">Hover or tap the satellites and software tools to explore my work.</p>
+        </section>
+
+        <section class="earth-panel" aria-label="Earth observation visual portfolio">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="orbit orbit-4"></div>
+
+           <button class="earth" data-section="identity">
+
+    <span class="earth-glow"></span>
+
+    <span class="earth-image"></span>
+
+    <span class="earth-label">
+        EARTH
+    </span>
+
+</button>
+
+            
+            <div class="satellite-track track-grace">
+    <button class="satellite sat-grace"
+            data-section="skillData">
+        <span>🛰️</span>
+        GRACE
+    </button>
+</div>
+
+<div class="satellite-track track-sentinel">
+    <button class="satellite sat-sentinel"
+            data-section="skillSentinel">
+        <span>🛰️</span>
+        Sentinel/Landsat
+    </button>
+</div>
+
+<div class="satellite-track track-landsat">
+    <button class="satellite sat-landsat"
+            data-section="skillGNSS">
+        <span>🛰️</span>
+        GPS/GNSS
+    </button>
+</div>
+            <div class="satellite-track track-moon">
+                <button class="moon" data-section="journey">🌙</button>
+            </div>
+
+            <button class="space-node node-experience" data-section="experience">Experience</button>
+            <button class="space-node node-education" data-section="education">Education</button>
+            <button class="space-node node-projects" data-section="projects">Projects</button>
+
+            <div class="software-belt" aria-label="Software tools">
+                <button class="tool-chip qgis" data-section="toolQGIS">QGIS</button>
+                <button class="tool-chip arcgis" data-section="toolArcGIS">ArcGIS</button>
+                <button class="tool-chip snap" data-section="toolSNAP">ESA SNAP</button>
+                <button class="tool-chip python" data-section="skillPlatform">Python</button>
+                <button class="tool-chip matlab" data-section="toolMATLAB">MATLAB</button>
+                <button class="tool-chip postgis" data-section="skillBackend">PostGIS</button>
+            </div>
+        </section>
+
+        <aside class="preview-card hidden" id="previewCard"></aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
