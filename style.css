@@ -515,3 +515,91 @@ body {
     rgba(79,195,247,.35);
 
 }
+
+@media (max-width: 900px) {
+
+    .portfolio-shell {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .identity-panel,
+    .earth-panel {
+        width: 100%;
+    }
+
+    .earth-panel {
+        min-height: 520px;
+        margin-top: 30px;
+    }
+
+    .earth {
+        width: 170px;
+        height: 170px;
+    }
+
+    .orbit-1,
+    .orbit-2,
+    .orbit-3,
+    .orbit-4 {
+        transform: scale(0.75);
+    }
+
+    .satellite {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .software-belt {
+        flex-wrap: wrap;
+        gap: 8px;
+        bottom: 20px;
+    }
+
+    .preview-card {
+        position: fixed;
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+        width: auto;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 520px) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .quick-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .actions {
+        flex-wrap: wrap;
+    }
+
+    .earth-panel {
+        min-height: 460px;
+    }
+
+    .earth {
+        width: 140px;
+        height: 140px;
+    }
+
+    .software-belt {
+        position: relative;
+        margin-top: 360px;
+    }
+}
