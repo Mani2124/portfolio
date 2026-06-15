@@ -516,90 +516,86 @@ body {
 
 }
 
-@media (max-width: 900px) {
 
-    .portfolio-shell {
-        flex-direction: column;
-        padding: 24px;
-    }
+@media (max-width: 768px) {
 
-    .identity-panel,
-    .earth-panel {
-        width: 100%;
-    }
+  .portfolio-shell {
+    display: block;
+    padding: 24px;
+  }
 
-    .earth-panel {
-        min-height: 520px;
-        margin-top: 30px;
-    }
+  .identity-panel {
+    width: 100%;
+  }
 
-    .earth {
-        width: 170px;
-        height: 170px;
-    }
+  .quick-stats {
+    grid-template-columns: 1fr;
+  }
 
-    .orbit-1,
-    .orbit-2,
-    .orbit-3,
-    .orbit-4 {
-        transform: scale(0.75);
-    }
+  .earth-panel {
+    width: 100%;
+    min-height: auto;
+    margin-top: 50px;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .satellite {
-        font-size: 12px;
-        padding: 8px 10px;
-    }
+  .orbit,
+  .satellite-track {
+    position: static;
+    transform: none !important;
+    animation: none !important;
+  }
 
-    .software-belt {
-        flex-wrap: wrap;
-        gap: 8px;
-        bottom: 20px;
-    }
+  .earth {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 28px;
+  }
 
-    .preview-card {
-        position: fixed;
-        left: 16px;
-        right: 16px;
-        bottom: 16px;
-        width: auto;
-        max-height: 70vh;
-        overflow-y: auto;
-    }
-}
+  .satellite-track {
+    display: inline-flex;
+    margin: 6px;
+  }
 
-@media (max-width: 520px) {
+  .satellite,
+  .moon,
+  .space-node,
+  .tool-chip {
+    position: static !important;
+    transform: none !important;
+    animation: none !important;
+    rotate: 0deg !important;
+  }
 
-    h1 {
-        font-size: 34px;
-    }
+  .space-node,
+  .software-belt {
+    position: static;
+  }
 
-    h2 {
-        font-size: 18px;
-    }
+  .software-belt {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 320px;
+  }
 
-    .tagline {
-        font-size: 14px;
-    }
-
-    .quick-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .actions {
-        flex-wrap: wrap;
-    }
-
-    .earth-panel {
-        min-height: 460px;
-    }
-
-    .earth {
-        width: 140px;
-        height: 140px;
-    }
-
-    .software-belt {
-        position: relative;
-        margin-top: 360px;
-    }
+  .preview-card {
+    position: fixed;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    width: auto;
+    max-height: 70vh;
+    overflow-y: auto;
+    z-index: 999;
+  }
 }
