@@ -276,9 +276,9 @@ skillGNSS: {
     html: `
 
     <p>
-    Experience in geodesy and satellite positioning, including coordinate
-    reference systems, terrestrial and global reference frames,
-    and high-precision positioning techniques.
+    Experience in geodesy and Global Navigation Satellite Systems (GNSS),
+    including satellite positioning, coordinate reference systems,
+    terrestrial reference frames and high-precision geodetic measurements.
     </p>
 
     <div class="chips">
@@ -286,21 +286,35 @@ skillGNSS: {
         <span>
         GNSS
         <small>
-        Satellite-based positioning and navigation systems.
+        Global Navigation Satellite Systems for positioning and navigation.
         </small>
         </span>
 
         <span>
         GPS
         <small>
-        Global Positioning System for positioning and navigation.
+        United States Global Positioning System.
         </small>
         </span>
 
         <span>
         Galileo
         <small>
-        European global navigation satellite system.
+        European Global Navigation Satellite System.
+        </small>
+        </span>
+
+        <span>
+        Relative Positioning
+        <small>
+        Static and kinematic GNSS positioning using reference stations.
+        </small>
+        </span>
+
+        <span>
+        Carrier Phase
+        <small>
+        High precision carrier-phase observations and ambiguity resolution.
         </small>
         </span>
 
@@ -331,9 +345,17 @@ skillGNSS: {
 
     </div>
 
-    `
-},
+    <br>
 
+    <a class="project-btn"
+       href="assets/GLOBAL_NAVIGATION_SATELLITE_SYSTEMS.pdf"
+       target="_blank">
+       View Presentation
+    </a>
+
+    `
+
+},
     skillPlatform: {
         title: "Python",
         previewTitle: "Scientific & Geospatial Development",
@@ -411,6 +433,74 @@ skillGNSS: {
             </div>
         `
     },
+    skillLandManagement: {
+
+    title: "Land Management",
+
+    previewTitle: "Urban Planning, Land Use & Land Readjustment",
+
+    html: `
+
+    <p>
+    Experience in land management and urban planning, including site appraisal,
+    land use planning, structural design, binding land use planning and land
+    readjustment for a mixed-use urban development area in Bonn, Germany.
+    </p>
+
+    <div class="chips">
+
+        <span>
+        Site Appraisal
+        <small>
+        Analysed location, accessibility, land use structure, topography and surrounding conditions.
+        </small>
+        </span>
+
+        <span>
+        Land Use Planning
+        <small>
+        Developed a mixed-use, medium-density urban concept with residential, commercial and public spaces.
+        </small>
+        </span>
+
+        <span>
+        Structural Plan
+        <small>
+        Created road connections, public amenities, green areas and kindergarten allocation.
+        </small>
+        </span>
+
+        <span>
+        Binding Land Use Plan
+        <small>
+        Considered German planning regulations including BauGB, BauNVO, PlanZV and BauO NRW.
+        </small>
+        </span>
+
+        <span>
+        Land Readjustment
+        <small>
+        Evaluated owner parcels, allocation plots, land value changes and financial compensation.
+        </small>
+        </span>
+
+        <span>Urban Planning</span>
+        <span>GIS Mapping</span>
+        <span>Spatial Analysis</span>
+
+    </div>
+
+    <br>
+
+    <a class="project-btn"
+       href="assets/LandManagement.pdf"
+       target="_blank">
+       View Presentation
+    </a>
+
+    `
+
+},
 
     toolMATLAB: {
         title: "MATLAB",
@@ -502,3 +592,5 @@ resizeCanvas();
 drawStars();
 
 window.addEventListener("resize", resizeCanvas);
+
+
